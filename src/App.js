@@ -53,6 +53,7 @@ export default class App extends React.Component {
           <p className="intro">A list of web development podcasts from <a href="https://github.com/ryanburgess/web-development-podcasts">https://github.com/ryanburgess/web-development-podcasts</a></p>
         </header>
         {this.podcastList()}
+        <footer className="footer">View the source code on github <a href="https://github.com/jaymiejones86/nwb-react-fetch-example">jaymiejones86/nwb-react-fetch-example</a></footer>
       </div>
     )
   }
