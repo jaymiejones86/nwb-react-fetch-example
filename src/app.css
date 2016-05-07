@@ -3,11 +3,6 @@ body {
   font-family: arial;
 }
 
-/* Light orange F6B352 */
-/* orange F68657 */
-/* ligher black 383A3F */
-/* dark black 1F2124 */
-
 a {
   color: #F68657;
   text-decoration: none;
@@ -22,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid #DDDFE2;
   margin-bottom: 2.5em;
   padding-bottom: 1em;
+  text-align: center;
 }
 
 .footer {
@@ -37,8 +33,4 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper {
   margin: 0 auto;
   max-width: 900px;
-}
-
-.header {
-  text-align: center;
 }
