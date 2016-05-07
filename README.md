@@ -4,6 +4,9 @@ development podcasts from a json file.
 
 The podcasts list is from the github repo [ryanburgess/web-development-podcasts](https://github.com/ryanburgess/web-development-podcasts/blob/master/podcasts.json)
 
+## Background
+This app was created to test out the native [FetchAPI](https://developer.mozilla.org/en/docs/Web/API/Fetch_API)
+
 ## Requirements
 - Nodejs [install](https://nodejs.org)
 - NWB [install](https://github.com/insin/nwb)
