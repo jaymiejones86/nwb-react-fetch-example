@@ -49,14 +49,14 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className="wrapper">
+      <div className={styles.wrapper}>
         <link href='https://fonts.googleapis.com/css?family=Neuton:400,400italic,700' rel='stylesheet' type='text/css' />
-        <header className="header">
+        <header className={styles.header}>
           <h1>Web Development Podcasts</h1>
-          <p className="intro">A list of web development podcasts from <a href="https://github.com/ryanburgess/web-development-podcasts">https://github.com/ryanburgess/web-development-podcasts</a></p>
+          <p className={styles.intro}>A list of web development podcasts from <a href="https://github.com/ryanburgess/web-development-podcasts">https://github.com/ryanburgess/web-development-podcasts</a></p>
         </header>
         {this.podcastList()}
-        <footer className="footer">View the source code on github <a href="https://github.com/jaymiejones86/nwb-react-fetch-example">jaymiejones86/nwb-react-fetch-example</a></footer>
+        <footer className={styles.footer}>View the source code on github <a href="https://github.com/jaymiejones86/nwb-react-fetch-example">jaymiejones86/nwb-react-fetch-example</a></footer>
       </div>
     )
   }

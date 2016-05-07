@@ -7,20 +7,20 @@ export default class Podcast extends React.Component {
     const { title, description, url, thumb } = this.props.data
 
     return (
-      <div className="podcast-item">
-        <aside className="podcast-item__sidebar">
-          <a href={url} className="podcast-item__link">
+      <div className={styles.podcastItem}>
+        <aside className={styles.podcastItemSidebar}>
+          <a href={url}>
             <img src={thumb} alt={title} />
           </a>
         </aside>
-        <main className="podcast-item__main">
-          <h2 className="podcast-item__title">
+        <main className={styles.podcastItemContent}>
+          <h2 className={styles.podcastItemTitle}>
             {title}
           </h2>
-          <a href={url} className="podcast-item__link">
+          <a href={url}>
             {url}
           </a>
-          <p className="podcast-item__link">
+          <p>
             {description}
           </p>
         </main>
